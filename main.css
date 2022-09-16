@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&family=Sen:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --accentText: rgb(28,231,131);
+    --background: black;
+    --mainText: white;
+    --sublteText: rgb(168,175,189);
+}
+
+*{
+    border: 1px solid darkblue;
+}
+body{
+    background-color: black;
+}
+
+html, body {
+    margin:0;
+    height:100%;
+    overflow: hidden;
+}
+
+.bg-container{
+    background-image: url("images/headerbackground.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center top;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    width:100%;
+    min-height:660px;
+    /* border:5px solid red;   
+    box-sizing: border-box; */
+}
+
+.hulu{
+    margin: 1em;
+    padding: 0 1em 0 1em;
+    height: min-content;
+    width: auto;
+}
+.hulu a{
+    display: inline-block;
+    justify-content: left;
+    text-decoration: none;
+    color: var(--accentText);
+    font-size: 1.5em;
+    font-weight: 800;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.login{
+    float: right;
+    justify-content: left;
+    margin: 1em;
+    padding: 0 1em 0 1em;
+    height: min-content;
+    width: auto;
+}
+
+.login a{
+    text-align: left;
+    text-decoration: none;
+    color: var(--sublteText);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: .7em;
+}
+
+.bg-container-body{
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex: 1 1 100%;
+    /* transform: translateY(-5em); */
+    height:auto;
+}
+
+.bg-container-img{
+    display: block;
+    justify-content: center;
+    margin: auto;
+
+    width: 65%;
+    height: auto;
+}
+
+button{
+    width: 65%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 1em 0 1em 0;
+
+    background-color: var(--accentText);
+    border-radius: .3em;
+    color: black;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+button:hover{
+    transition: opacity 500ms;
+    opacity: .7;
+}
+
+.greyLinks{
+    display: block;
+    text-align: center;
+    color: var(--sublteText);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    margin: auto;
+    padding: .5em;
+}
+
+.greyLinks a{
+    font-family: 'Poppins', sans-serif;
+    color: var(--sublteText);
+}
+
+.whiteLinks{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: .5em;
+}
+
+.whiteLinks a {
+    font-family: 'Poppins', sans-serif;
+    color: var(--mainText);
+}
+
+h3{
+    color: var(--mainText);
+    text-align: center;
+    width: 65%;
+    display: block;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.smallText{
+    color: var(--accentText);
+    text-align: center;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    
+    width: 65%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
